@@ -1,11 +1,9 @@
 # CV - Tahir Rahimov
 
+__Phone:__*[+994555458599](tel:+99455458599)*
+__Email:__*[mail@tahir-rahimov.com](mailto:mail@tahir-rahimov.com)*
 
-### __Phone:__*[+994555458599](tel:+99455458599)*
-
-### __Email:__*[mail@tahir-rahimov.com](mailto:mail@tahir-rahimov.com)*
-
-### __Discord:__ *rtahir1995#1295*
+__Discord:__ *rtahir1995#1295*
 
 __Instagram:__ *[@mr.t.rahimov](https://www.instagram.com/mr.t.rahimov/)*
 
