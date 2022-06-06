@@ -1,5 +1,7 @@
 # CV - Tahir Rahimov
 
+![Моя фотография. P.S. лучше не нашлось =)](/assets/img/cv_photo.jpg)
+
 __Phone:__ *[+994555458599](tel:+99455458599)*
 
 __Email:__ *[mail@tahir-rahimov.com](mailto:mail@tahir-rahimov.com)*
