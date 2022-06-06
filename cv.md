@@ -14,9 +14,16 @@ __Vk:__ *[Таир Рагимов](https://vk.com/mr.t.rahimov)*
 
 __Github:__ *[rtahir1995](https://github.com/rtahir1995/)*
 
-__Skills:__ *HTML, CSS* 
+## Skills 
+* __HTML__ 
+* __CSS__ 
+
+## About me
 
 I am from [Azerbaijan](https://en.wikipedia.org/wiki/Azerbaijan). I live in [Baku](https://en.wikipedia.org/wiki/Baku). I really like to travel. In order to travel a lot, I needed to find a profession that would not require constant presence in the office. So I decided to become a full stack developer.  I've loved creating websites since I was a kid. I used to make websites on different website builders, such as ucoz. Now I hope to develop websites of a more professional level.
+
+## Code examples
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -39,6 +46,8 @@ I had no work experience. I was just trying to write codes from the courses I st
 * __[Twitter](https://rtahir1995.github.io/twitter/)__
 
 * __[Skybl(GroupWork)](https://rtahir1995.github.io/skybl/)__
+
+## Education
 
 I have a law degree. I graduated from the RLA of the Ministry of Justice of Russia.
 
