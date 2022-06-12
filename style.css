@@ -7,9 +7,9 @@
 /* General */
 
 body {
-    font-family: 'Lato', sans-serif;
     height: 100%;
     width: 100%;
+    font-family: 'Lato', sans-serif;
 }
 
 h1,
@@ -18,13 +18,13 @@ h2 {
 }
 
 
-/* Header */
+/* header */
 
 header {
-    margin-bottom: 100px;
     display: flex;
-    align-items: center;
+    margin-bottom: 100px;
     padding: 10px;
+    align-items: center;
     background: #231F20 linear-gradient(180deg, #232323 0%, #231F20 50%, #303032 100%);
     border-bottom: 3px solid #52CCF3;
     color: #FEFDFE;
@@ -37,22 +37,22 @@ header ul {
 }
 
 header a {
+    margin-right: 7px;
     font-family: 'Josefin Sans', sans-serif;
     color: #FFFFFF;
     text-decoration: none;
-    margin-right: 7px;
 }
 
 .header-name {
-    font-size: 22px;
     flex-grow: 1;
     flex-basis: 47.5%;
+    font-size: 22px;
 }
 
 .header-nav {
-    font-size: 19px;
     flex-grow: 1;
     flex-basis: 47.5%;
+    font-size: 19px;
 }
 
 .header-nav li {
@@ -73,9 +73,9 @@ header a {
 }
 
 .header-social-nav {
-    font-size: 19px;
     flex-grow: 1;
     flex-basis: 5%;
+    font-size: 19px;
 }
 
 .header-social-nav img {
@@ -97,4 +97,81 @@ header a {
 .github-main-nav img:hover {
     background: linear-gradient(180deg, #3E007E 0%, #30005E 50%, #C547A8 100%);
     transition: 0.4s;
+}
+
+/* main */
+
+main {
+    width: 80%;
+    margin: 0px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #1D262D;
+}
+
+/* cv-header */
+.cv-header {
+    display: flex;
+    height: 300px;
+    align-items: center;
+    background-color: #1D262D;
+    border-bottom: 5px solid #52CCF3;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.profile-photo {
+    height: 250px;
+    margin-left: 50px;
+    border: 5px solid #FFFFFF;
+    border-top: none;
+    border-left: none;
+}
+
+.buttons-header {
+    display: flex;
+    height: 300px;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons-header h2,
+h3 {
+    font-family: 'Comfortaa';
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.buttons-header h2 {
+    font-size: 50px;
+}
+
+.buttons-header h3 {
+    font-size: 35px;
+
+}
+
+.hire-me {
+    display: flex;
+    height: 50px;
+    width: 250px;
+    margin-top: 40px;
+    font-family: 'Comfortaa';
+    font-size: 30px;
+    font-weight: 700;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #52CCF3;
+    border: 3px solid #52CCF3;
+    border-radius: 50px;
+}
+
+.hire-me:hover {
+    color: #1D262D;
+    background-color: #52CCF3;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    transition: 0.2s;
 }
