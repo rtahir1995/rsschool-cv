@@ -4,19 +4,64 @@
     padding: 0;
 }
 
+/* Fonts */
+
+/* Roboto */
+
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    src: url(./assets/fonts/Roboto/Roboto-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    src: url(./assets/fonts/Roboto/Roboto-Italic.ttf);
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    src: url(./assets/fonts/Roboto/Roboto-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    src: url(./assets/fonts/Roboto/Roboto-BoldItalic.ttf);
+    font-weight: 700;
+    font-style: italic;
+}
+
+/* Comfortaa */
+
+@font-face {
+    font-family: 'Comfortaa';
+    src: url(./assets/fonts/Comfortaa/Comfortaa-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Comfortaa';
+    src: url(./assets/fonts/Comfortaa/Comfortaa-Bold.ttf);
+    font-weight: 700;
+}
+
 /* General */
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
-    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
     width: 100%;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
-
-h1,
-h2 {
-    font-family: 'Oleo Script';
-}
-
 
 /* header */
 
@@ -30,15 +75,14 @@ header {
     color: #FEFDFE;
 }
 
-
 header ul {
     display: flex;
-    list-style-type: none;
+    list-style: none;
 }
 
 header a {
     margin-right: 7px;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Comfortaa';
     color: #FFFFFF;
     text-decoration: none;
 }
