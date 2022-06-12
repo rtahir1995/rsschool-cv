@@ -1,3 +1,99 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* General */
+
 body {
-    background-color: #fff;
+    font-family: 'Lato', sans-serif;
+    height: 100%;
+    width: 100%;
+}
+
+h1,
+h2 {
+    font-family: 'Oleo Script';
+}
+
+
+/* Header */
+
+header {
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background: #231F20 linear-gradient(180deg, #232323 0%, #231F20 50%, #303032 100%);
+    border-bottom: 3px solid #52CCF3;
+    color: #FEFDFE;
+}
+
+
+header ul {
+    display: flex;
+    list-style-type: none;
+}
+
+header a {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-right: 7px;
+}
+
+.header-name {
+    font-size: 1.4em;
+    flex-grow: 1;
+    flex-basis: 47.5%;
+}
+
+.header-nav {
+    font-size: 1.2em;
+    flex-grow: 1;
+    flex-basis: 47.5%;
+}
+
+.header-nav li {
+    margin-right: 7px;
+    border-right: 3px solid #52CCF3;
+}
+
+.header-nav li:last-child {
+    margin-right: 5px;
+    border-right: none;
+}
+
+.header-nav a:hover {
+    color: #52CCF3;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    transition: 0.2s;
+}
+
+.header-social-nav {
+    font-size: 1.2em;
+    flex-grow: 1;
+    flex-basis: 5%;
+}
+
+.header-social-nav img {
+    border: none 0px;
+    border-radius: 50%;
+}
+
+.facebook-main-nav img:hover {
+    background-color: #3B5998;
+    transition: 0.4s;
+}
+
+.instagram-main-nav img:hover {
+    background: linear-gradient(180deg, #8B4ABA 0%, #C82C8F 25%, #D45062 50%, #E57754 75%, #F2CE71 100%);
+    transition: 0.4s;
+}
+
+.github-main-nav img:hover {
+    background: linear-gradient(180deg, #3E007E 0%, #30005E 50%, #C547A8 100%);
+    transition: 0.4s;
 }
