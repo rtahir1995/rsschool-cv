@@ -44,13 +44,13 @@ header a {
 }
 
 .header-name {
-    font-size: 1.4em;
+    font-size: 22px;
     flex-grow: 1;
     flex-basis: 47.5%;
 }
 
 .header-nav {
-    font-size: 1.2em;
+    font-size: 19px;
     flex-grow: 1;
     flex-basis: 47.5%;
 }
@@ -73,12 +73,13 @@ header a {
 }
 
 .header-social-nav {
-    font-size: 1.2em;
+    font-size: 19px;
     flex-grow: 1;
     flex-basis: 5%;
 }
 
 .header-social-nav img {
+    width: 25px;
     border: none 0px;
     border-radius: 50%;
 }
