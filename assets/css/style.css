@@ -1,0 +1,297 @@
+/* Global */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+header ul {
+    list-style: none;
+}
+
+header a {
+    text-decoration: none;
+    font-family: 'Comfortaa';
+    color: #FFFFFF;
+}
+
+h1,
+h3 {
+    font-family: 'Comfortaa';
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+main {
+    width: 80%;
+    margin: 0px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #1D262D;
+}
+
+/* Laptop L | Laptop*/
+
+@media screen and (min-width: 769px) {
+
+    /* header */
+
+    .header {
+        display: flex;
+        padding: 10px;
+        border-bottom: 3px solid #52CCF3;
+        background: #231F20 linear-gradient(180deg, #232323 0%, #231F20 50%, #303032 100%);
+    }
+
+    .header nav {
+        display: flex;
+        margin: auto;
+        align-items: center;
+    }
+
+    .header ul {
+        display: flex;
+    }
+
+    /* header nav */
+    .header-nav_item {
+        border-right: 3px solid #52CCF3;
+    }
+
+    .header-nav_item:last-child {
+        border: none;
+    }
+
+    .header-nav_link {
+        padding: 0 20px;
+    }
+
+    .header-nav_link:hover {
+        color: #52CCF3;
+        transition: 0.4s;
+    }
+
+    /* header social nav */
+
+    .header-social_link img {
+        margin-right: 10px;
+        width: 30px;
+        border: none;
+        border-radius: 50%;
+    }
+
+    .facebook-header:hover {
+        background-color: #3B5998;
+        transition: 0.4s;
+    }
+
+    .instagram-header:hover {
+        background: linear-gradient(180deg, #8B4ABA 0%, #C82C8F 25%, #D45062 50%, #E57754 75%, #F2CE71 100%);
+        transition: 0.4s;
+    }
+
+    .github-header:hover {
+        background: linear-gradient(180deg, #3E007E 0%, #30005E 50%, #C547A8 100%);
+        transition: 0.4s;
+    }
+
+    /* main */
+
+    /* main-header */
+
+    .main-header {
+        display: flex;
+        align-items: center;
+        height: 300px;
+        background-color: #1D262D;
+        border-bottom: 5px solid #52CCF3;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+    }
+
+    .profile-photo {
+        max-height: 250px;
+        max-width: 250px;
+        margin-left: 50px;
+        border: 5px solid #FFFFFF;
+        border-top: none;
+        border-left: none;
+    }
+
+    .buttons-header {
+        display: flex;
+        height: 300px;
+        flex-direction: column;
+        flex-grow: 1;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .buttons-header h1 {
+        font-size: 40px;
+        color: #FFFFFF;
+    }
+
+    .buttons-header h3 {
+        margin-top: 7px;
+        font-size: 25px;
+        color: #FFFFFF;
+    }
+
+    .hire-me {
+        display: flex;
+        height: 50px;
+        width: 250px;
+        margin-top: 40px;
+        font-family: 'Comfortaa';
+        font-size: 30px;
+        font-weight: 700;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        color: #52CCF3;
+        border: 3px solid #52CCF3;
+        border-radius: 50px;
+    }
+
+    .hire-me:hover {
+        color: #1D262D;
+        background-color: #52CCF3;
+        transition-duration: 1s;
+        transition-timing-function: linear;
+        transition: 0.2s;
+    }
+
+}
+
+/* @media Tablet | Mobile L | Mobile M* | Mobile S */
+
+@media screen and (max-width: 768px) {
+
+    /* header */
+    .header {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        border-bottom: 3px solid #52CCF3;
+        background: #231F20 linear-gradient(180deg, #232323 0%, #231F20 50%, #303032 100%);
+    }
+
+    /* header social nav */
+    .header-social {
+        width: 100%;
+        padding-bottom: 15px;
+        margin-bottom: 15px;
+        border-bottom: 1px solid #52CCF3;
+    }
+
+    .header-social ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    .header-social_link img {
+        margin-right: 10px;
+        width: 30px;
+        border-radius: 50%;
+    }
+
+    .facebook-header {
+        background-color: #3B5998;
+        transition: 0.4s;
+    }
+
+    .instagram-header {
+        background: linear-gradient(180deg, #8B4ABA 0%, #C82C8F 25%, #D45062 50%, #E57754 75%, #F2CE71 100%);
+        transition: 0.4s;
+    }
+
+    .github-header {
+        background: linear-gradient(180deg, #3E007E 0%, #30005E 50%, #C547A8 100%);
+        transition: 0.4s;
+    }
+
+    /* header nav */
+    .header-nav li {
+        margin-bottom: 10px;
+        font-size: 25px;
+    }
+
+    /* main */
+
+    /* main-header */
+
+    .main-header {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        align-items: center;
+        background-color: #1D262D;
+        border-bottom: 5px solid #52CCF3;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+    }
+
+    .profile-photo {
+        max-height: 200px;
+        max-width: 200px;
+        margin-bottom: 30px;
+        border: 2px solid #52CCF3;
+        border-radius: 10%;
+    }
+
+    .buttons-header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .buttons-header h1 {
+        font-size: 30px;
+        color: #FFFFFF;
+    }
+
+    .buttons-header h3 {
+        margin-top: 7px;
+        font-size: 15px;
+        color: #FFFFFF;
+    }
+
+
+    .hire-me {
+        display: flex;
+        height: 50px;
+        width: 100%;
+        margin-top: 40px;
+        font-family: 'Comfortaa';
+        font-size: 30px;
+        font-weight: 700;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        background-color: #52CCF3;
+        color: #1D262D;
+        border: 3px solid #52CCF3;
+        border-radius: 30px;
+    }
+}
