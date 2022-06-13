@@ -131,7 +131,6 @@ code {
     border-bottom: 5px solid #52ccf3;
 }
 
-
 .contact-me a {
     text-decoration: none;
     color: #ffffff;
@@ -189,7 +188,7 @@ textarea {
     font-size: 15px;
 }
 
-.my-contacts p {
+.my-contacts li {
     display: flex;
     align-items: center;
     margin-bottom: 8px;
@@ -200,6 +199,36 @@ textarea {
     margin: 0 10px;
 }
 
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color: #ffffff;
+    font-weight: 700;
+    border-top: 5px solid #52ccf3;
+    background-color: #1d262d;
+}
+
+a,
+p {
+    margin: 5px 0;
+}
+
+footer img {
+    height: 50px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.github-footer {
+    display: flex;
+    align-items: center;
+}
 
 
 /* Laptop L | Laptop*/
