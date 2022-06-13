@@ -59,7 +59,7 @@ h2 {
     color: #ffffff;
     width: 100%;
     background-color: #1d262d;
-
+    padding-bottom: 10px;
 }
 
 code {
@@ -70,12 +70,53 @@ code {
     background-color: #1d262d;
 }
 
+/* Education */
+
+.university-item {
+    margin: 10px;
+    padding: 10px;
+    border-left: 3px solid #52ccf3;
+    line-height: 30px;
+    box-shadow: 0 0 3px #1d262d;
+}
+
+/* Languages */
+
+.language-part {
+    color: #ffffff;
+    width: 100%;
+    background-color: #1d262d;
+    padding-bottom: 10px;
+}
+
+.language-items {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.language-item {
+    margin: 10px;
+}
+
+/* Projects */
+
+.project-items {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.project-item img {
+    max-height: 250px;
+    margin: 5px;
+    border: 2px solid #1d262d;
+}
+
 /* Laptop L | Laptop*/
 
 @media screen and (min-width: 769px) {
-    body {
-        justify-content: space-between;
-    }
 
     /* header */
 
@@ -142,15 +183,15 @@ code {
 
     main {
         width: 80%;
-        margin: 0px auto;
+        margin: 50px auto;
         border-radius: 10px;
         color: #1d262d;
         box-shadow: 0 0 10px #1d262d;
     }
 
-    /* main-header */
+    /* profile */
 
-    .main-header {
+    .profile {
         display: flex;
         align-items: center;
         height: 300px;
@@ -352,9 +393,9 @@ code {
         color: #1d262d;
     }
 
-    /* main-header */
+    /* profile */
 
-    .main-header {
+    .profile {
         display: flex;
         flex-direction: column;
         padding: 10px;
