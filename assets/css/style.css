@@ -13,10 +13,10 @@ html {
 body {
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
     width: 100%;
-    color: #1d262d;
+    min-height: 100vh;
     font-family: 'Roboto', sans-serif;
+    color: #1d262d;
 }
 
 header ul {
@@ -24,8 +24,8 @@ header ul {
 }
 
 header a {
-    text-decoration: none;
     font-family: 'Comfortaa';
+    text-decoration: none;
     color: #ffffff;
 }
 
@@ -56,17 +56,17 @@ h2 {
 
 /* Code Section */
 .code-part {
-    color: #ffffff;
     width: 100%;
-    background-color: #1d262d;
     padding-bottom: 10px;
+    color: #ffffff;
+    background-color: #1d262d;
 }
 
 code {
     margin: 10px;
     color: #ffffff;
-    font-weight: 700;
     font-size: 16px;
+    font-weight: 700;
     background-color: #1d262d;
 }
 
@@ -75,24 +75,24 @@ code {
 .university-item {
     margin: 10px;
     padding: 10px;
-    border-left: 3px solid #52ccf3;
     line-height: 30px;
+    border-left: 3px solid #52ccf3;
     box-shadow: 0 0 3px #1d262d;
 }
 
 /* Languages */
 
 .language-part {
-    color: #ffffff;
     width: 100%;
-    background-color: #1d262d;
     padding-bottom: 10px;
+    color: #ffffff;
+    background-color: #1d262d;
 }
 
 .language-items {
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .language-item {
@@ -103,8 +103,8 @@ code {
 
 .project-items {
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .project-item img {
@@ -142,21 +142,21 @@ code {
 
 .contact-form input,
 textarea {
-    min-height: 30px;
     width: 200px;
-    border-radius: 3px;
+    min-height: 30px;
     padding: 10px;
     border: 2px solid #52ccf3;
+    border-radius: 3px;
 }
 
 .contact-form .submit {
-    background-color: #52ccf3;
     width: 100%;
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #52ccf3;
     border: none;
     cursor: pointer;
-    font-weight: 700;
-    font-size: 20px;
-    color: #ffffff;
 }
 
 .contact-form .submit:hover {
@@ -205,10 +205,10 @@ footer {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    color: #ffffff;
     font-weight: 700;
-    border-top: 5px solid #52ccf3;
+    color: #ffffff;
     background-color: #1d262d;
+    border-top: 5px solid #52ccf3;
 }
 
 a,
@@ -240,8 +240,8 @@ footer a {
     .header {
         display: flex;
         padding: 10px;
-        border-bottom: 3px solid #52ccf3;
         background: #231f20 linear-gradient(180deg, #232323 0%, #231f20 50%, #303032 100%);
+        border-bottom: 3px solid #52ccf3;
     }
 
     .header nav {
@@ -300,11 +300,11 @@ footer a {
 
     main {
         width: 80%;
-        overflow: hidden;
         margin: 50px auto;
         border-radius: 10px;
         color: #1d262d;
         box-shadow: 0 0 10px #1d262d;
+        overflow: hidden;
     }
 
     /* profile */
@@ -320,8 +320,8 @@ footer a {
     }
 
     .profile-photo {
-        max-height: 250px;
         max-width: 250px;
+        max-height: 250px;
         margin-left: 50px;
         border: 5px solid #ffffff;
         border-top: none;
@@ -350,8 +350,8 @@ footer a {
 
     .hire-me {
         display: flex;
-        height: 50px;
         width: 250px;
+        height: 50px;
         margin-top: 40px;
         font-family: 'Comfortaa';
         font-size: 30px;
@@ -405,44 +405,47 @@ footer a {
 
     .progress {
         display: flex;
+        width: 100%;
+        height: 20px;
         margin-left: 20px;
         background-color: #52ccf3;
         border-radius: 20px;
-        height: 20px;
-        width: 100%;
         overflow: hidden;
     }
 
     .html-skill {
+        width: 100%;
         text-align: right;
         background-color: #1d262d;
-        width: 100%;
         color: #ffffff;
     }
 
     .html-skill p {
+        margin: 0;
         margin-right: 10px;
     }
 
     .css-skill {
+        width: 80%;
         text-align: right;
         background-color: #1d262d;
-        width: 80%;
         color: #ffffff;
     }
 
     .css-skill p {
+        margin: 0;
         margin-right: 10px;
     }
 
     .js-skill {
-        text-align: right;
-        background-color: #1d262d;
         width: 10%;
+        text-align: right;
         color: #ffffff;
+        background-color: #1d262d;
     }
 
     .js-skill p {
+        margin: 0;
         margin-left: 10px;
     }
 
@@ -463,15 +466,15 @@ footer a {
         display: flex;
         align-items: center;
         flex-direction: column;
-        border-bottom: 3px solid #52ccf3;
         background: #231f20 linear-gradient(180deg, #232323 0%, #231f20 50%, #303032 100%);
+        border-bottom: 3px solid #52ccf3;
     }
 
     /* header social nav */
     .header-social {
         width: 100%;
-        padding-bottom: 15px;
         margin-bottom: 15px;
+        padding-bottom: 15px;
         border-bottom: 1px solid #52ccf3;
     }
 
@@ -481,8 +484,8 @@ footer a {
     }
 
     .header-social_link img {
-        margin-right: 10px;
         width: 30px;
+        margin-right: 10px;
         border-radius: 50%;
     }
 
@@ -512,8 +515,8 @@ footer a {
     main {
         width: 100%;
         margin: 0px auto;
-        border-radius: 10px;
         color: #1d262d;
+        border-radius: 10px;
     }
 
     /* profile */
@@ -521,15 +524,15 @@ footer a {
     .profile {
         display: flex;
         flex-direction: column;
-        padding: 10px;
         align-items: center;
+        padding: 10px;
         background-color: #1d262d;
         border-bottom: 5px solid #52ccf3;
     }
 
     .profile-photo {
-        max-height: 200px;
         max-width: 200px;
+        max-height: 200px;
         margin-bottom: 30px;
         border: 2px solid #52ccf3;
         border-radius: 10%;
@@ -555,17 +558,17 @@ footer a {
 
     .hire-me {
         display: flex;
-        height: 50px;
+        align-items: center;
         width: 100%;
+        height: 50px;
         margin: 40px;
         font-family: 'Comfortaa';
         font-size: 30px;
         font-weight: 700;
         justify-content: center;
-        align-items: center;
         text-decoration: none;
-        background-color: #52ccf3;
         color: #1d262d;
+        background-color: #52ccf3;
         border: 3px solid #52ccf3;
         border-radius: 30px;
     }
@@ -602,44 +605,47 @@ footer a {
 
     .progress {
         display: flex;
+        width: 100%;
+        height: 20px;
         margin-left: 20px;
         background-color: #52ccf3;
         border-radius: 20px;
-        height: 20px;
-        width: 100%;
         overflow: hidden;
     }
 
     .html-skill {
-        text-align: right;
-        background-color: #1d262d;
         width: 100%;
+        text-align: right;
         color: #ffffff;
+        background-color: #1d262d;
     }
 
     .html-skill p {
+        margin: 0px;
         margin-right: 10px;
     }
 
     .css-skill {
-        text-align: right;
-        background-color: #1d262d;
         width: 80%;
+        text-align: right;
         color: #ffffff;
+        background-color: #1d262d;
     }
 
     .css-skill p {
+        margin: 0px;
         margin-right: 10px;
     }
 
     .js-skill {
-        text-align: right;
-        background-color: #1d262d;
         width: 10%;
+        text-align: right;
         color: #ffffff;
+        background-color: #1d262d;
     }
 
     .js-skill p {
+        margin: 0px;
         margin-left: 10px;
     }
 
