@@ -107,12 +107,100 @@ code {
     flex-wrap: wrap;
 }
 
-
 .project-item img {
     max-height: 250px;
     margin: 5px;
     border: 2px solid #1d262d;
 }
+
+/* Contacts */
+
+.contacts-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-me {
+    color: #ffffff;
+    width: 100%;
+    background-color: #1d262d;
+    padding-bottom: 10px;
+    font-weight: 700;
+    border-bottom: 5px solid #52ccf3;
+}
+
+
+.contact-me a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.contact-form {
+    max-width: 50%;
+}
+
+.contact-form input,
+textarea {
+    min-height: 30px;
+    width: 200px;
+    border-radius: 3px;
+    padding: 10px;
+    border: 2px solid #52ccf3;
+}
+
+.contact-form .submit {
+    background-color: #52ccf3;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.contact-form .submit:hover {
+    background-color: #e12179;
+}
+
+.input-form {
+    display: flex;
+    margin: 10px;
+    align-items: center;
+    justify-content: start;
+}
+
+.input-title {
+    width: 100px;
+    margin-right: 10px;
+}
+
+.input-submit {
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+}
+
+.my-contacts {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 15px;
+}
+
+.my-contacts p {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.my-contacts img {
+    height: 25px;
+    margin: 0 10px;
+}
+
+
 
 /* Laptop L | Laptop*/
 
@@ -183,6 +271,7 @@ code {
 
     main {
         width: 80%;
+        overflow: hidden;
         margin: 50px auto;
         border-radius: 10px;
         color: #1d262d;
@@ -326,6 +415,11 @@ code {
 
     .js-skill p {
         margin-left: 10px;
+    }
+
+    /* Contacts */
+    .input-submit {
+        width: 310px;
     }
 
 
@@ -519,4 +613,35 @@ code {
     .js-skill p {
         margin-left: 10px;
     }
+
+
+    /* Contacts */
+    .contacts-container {
+        flex-direction: column;
+    }
+
+    .contact-form {
+        max-width: none;
+        width: 100%;
+    }
+
+    .contact-form input,
+    textarea {
+        max-width: none;
+        width: 100%;
+    }
+
+    .input-form {
+        flex-direction: column;
+    }
+
+    .input-title {
+        width: 100%;
+        margin: 10px;
+    }
+
+    .input-place {
+        width: 100%;
+    }
+
 }
